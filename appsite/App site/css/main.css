@@ -1,0 +1,195 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	border:0;
+	background: transparent;
+	vertical-align: baseline;
+}
+html{
+	font-family: circular std, sans-serif;
+}
+.landing{
+	background: url(../images/bg_01.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+	overflow-y: hidden;
+	min-height: 600px; 
+}
+.features{
+	background: url(../images/bg_02.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+	overflow-y: hidden;
+	min-height: 600px; 
+	position: relative;
+}
+.groups{
+	background: url(../images/bg_03.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+	overflow-y: hidden;
+	min-height: 600px; 
+	position: relative;
+}
+
+h1{
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+p{
+	font-size: 18px;
+	font-weight: 100;
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+a{
+	font-size: 16px;
+}
+
+.btnone{
+	border:white 2px solid;
+	border-radius: 100px;
+	padding: 0.6em 1.75em;
+}
+
+.btntwo{
+	background-color: #1F2122;
+	border-radius: 100px;
+	padding: 0.6em 1.75em;
+	display: block;
+	width: 160px;
+	margin-top: 40px;
+	text-align: center; 
+}
+
+.nav{
+	padding-top: 3em;
+}
+
+.pages{
+	float: right;
+	text-align: right;
+}
+.pages a{
+	text-decoration: none;
+	color: white;
+	margin-left: 25px;
+	vertical-align: middle;
+}
+.logo{
+	width: 160px;
+	vertical-align: middle;
+}
+.landingwrapper{
+	width: 88%;
+	margin: auto;
+}
+.landingcontent{
+	width: 88%;
+	margin: 150px auto 0 auto;
+	display: flex;
+}
+
+.contentleft{
+	flex: 0 0 55%;
+}
+
+.contentright{
+	flex: 0 0 45%;
+}
+
+.iphonehand{
+	width: 420px;
+	margin-top: -65px;
+}
+.contentleft h1 , .contentleft p, .contentleft a{
+	color: white;
+	text-decoration: none;
+}
+
+.date{
+	position: absolute;
+	top: 150px;
+	left: 11%;
+}
+.time{
+	position: absolute;
+	bottom: 90px;
+	right: 15%;
+}
+.date h1,.date img , .time h1,.time img{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.date img,.time img{
+	margin-bottom: 10px;
+	width: 36px;
+}
+
+.date p,.time p{
+	display: block;
+	margin-left:44px; 
+}
+
+
+.groupswrapper{
+	width: 88%;
+	margin: auto;
+}
+
+.groupscontent{
+	width: 88%;
+	margin: 150px auto 0 auto;
+	display: flex;
+}
+
+.contentleft img,.contentleft h1{
+	display: inline-block;
+	vertical-align: middle;
+}
+.contentleft img{
+	margin-bottom: 10px;
+	width: 36px;
+}
+.groupscontent > .contentleft p {
+	margin-left: 50px;
+}
+.groupsimage{
+	width: 500px;
+	margin-top: -50px;
+}
+
+.footer{
+	width: 70%;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+}
+
+.footer p {
+	color: #454D4E;
+	display: inline-block;
+}
+
+.pagesright{
+	float: right;
+}
+.pagesright p{
+	margin-left: 25px;
+}
+
+

@@ -1,0 +1,114 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	font-size: 100%;
+	border:0;
+	vertical-align: baseline;
+	overflow: hidden;
+}
+
+html{
+	font-family: sans-serif;
+}
+
+body{
+	background-image: url(bg.png);
+	height: 100vh;
+	background-size: 100% ;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.landingwrapper{
+	width: 85%;
+	margin: auto;
+	margin-top: 2.5em;
+}
+
+.nav{
+	display: flex;
+}
+
+.links{
+	list-style-type: none;
+	display: flex;
+	margin-left: 147px;
+	margin-top: 10px;
+}
+
+.links > li{
+	text-decoration: none;
+	margin-left: 75px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.baglogo{
+	position: absolute;
+	right: 7.5%;
+	margin-top: 10px;
+}
+
+.containerright{
+	float: right;
+	position: absolute;
+	right: 3%;
+	top: 49%;
+}
+
+.previous{
+	position: absolute;
+	top: 49%;
+	left:3%; 
+}
+
+.containerleft{
+	margin-top: 110px;
+}
+
+.tagline{
+	font-family: niagara solid;
+	font-size: 45px;
+	letter-spacing: 10px;
+}
+
+.Analouge{
+	color: #C28803;
+	font-size: 60px;
+}
+
+.info{
+	font-size: 17px;
+	opacity: 0.5;
+	margin-top: 50px;
+}
+
+.buttons{
+	display: flex;
+	margin-top: 80px;
+}
+
+.plus{
+	display: flex;
+	margin-right: 50px;
+}
+
+.number{
+	position: relative;
+	top: 10px;
+	right: 23px;
+	font-size: 20px;
+}
+
+.line{
+	height: 300px;
+	width: 6px;
+	position: absolute;
+	top: 27%;
+	left: 42%;
+	background-color: #C28803; 
+}

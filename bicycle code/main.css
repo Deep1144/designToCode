@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	border:0;
+}
+
+
+body{
+	background-image: url(images/bg1.png);
+	background-size: 100%;
+}
+
+html{
+	font-family: comic sans ms ;
+	font-weight: 100%;
+}
+
+h1{
+	font-family: bernard mt condensed;
+	font-size: 35px;
+	letter-spacing: 6px;
+}
+
+.speed{
+	font-size: 17px;
+	letter-spacing: 2.6px;
+	margin-top:20px; 
+}
+
+.landing{
+	width: 90%;
+	margin: auto;
+	padding-top: 3em;
+}
+
+.contentright {
+	position: relative;
+	float: right;
+	top:150px;
+	padding-top: 3em;
+	text-align: right;
+}
+
+.text{
+	color: #B3ABAB;
+	top: 27em;
+	position: relative;
+	font-size: 16px;
+}
+
+.info{
+	padding-left: 78px;
+}
+
+.topinfo{
+	position: relative;
+	top:92px;
+}
+
+.details{
+	display: flex;
+	color: white;
+	position: relative;
+	top: 11.5em;
+	right: 20em;
+}
+
+.detailsimg{
+	position: relative;
+	left: 10px;
+}
+.cart{
+	position: relative;
+	bottom: 20em;
+	left:20px;
+}
+
+.button{
+	width: 179px;
+	height: 61px;
+	background-color: white;
+	text-align: center;
+	position: absolute;
+	right:0%;
+	bottom: 0%;
+}
+a{
+	text-decoration: none;
+	position: absolute;
+	bottom: 30%;
+	right:30%;
+	color: black;
+}

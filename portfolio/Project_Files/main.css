@@ -1,0 +1,162 @@
+/*-------- Global --------*/
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	outline: 0;
+}
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+html{
+	font-family: sans-serif;
+	font-weight: 100%;
+}
+
+body{
+	width: 60%;
+	margin: auto;
+	background-image: url(images/BG.png);
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: 400;
+	color: #17191A;
+}
+
+.blue{
+	color: #027BFF;
+}
+
+h2{
+	font-size: 35px;
+	font-weight: 400;
+	color: #17191A;
+}
+
+
+h5{
+	font-size: 20px;
+	margin-top: 10px;
+	color: #17191A;
+}
+
+p{
+	color: #8F9EA5;
+	opacity: 0.8;
+	font-weight: 100;
+	margin-top: 10px;
+	font-style: 20px;
+}
+/*-------- Nav --------*/
+
+.nav{
+	display: flex;
+	align-items: center;
+	height: 100px;
+}
+.contectme , .navicons{
+	flex: 1;
+}
+.navicons{
+	text-align: right;
+}
+
+.navicons a, .contectme a,.contectme img {
+	display: inline-block;
+	vertical-align: middle;
+}
+.navicons a {
+	margin-left: 40px;
+}
+.contectme a{
+	color: #027BFF;
+	text-decoration: none;
+}
+.contectme img{
+	margin-right: 10px;	
+}
+/*-------- Landing --------*/
+
+.landing{
+	height: 100vh;
+	position: relative;
+}
+.landingwrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+ul{
+	list-style: none;
+	margin-top: 30px;
+	line-height: 30px;
+}
+
+.landingl{
+	margin-top: 4em;
+}
+.scroll{
+	position: absolute;
+	bottom: 180px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+/*-------- Skills --------*/
+
+.skills{
+	text-align: center;
+	margin-bottom: 20em;
+}
+
+.skills p{
+	margin-bottom: 30px;
+}
+.skills img{
+	width: 40px;
+	margin: 0 15px;
+}
+
+
+/*-------- Work 01 --------*/
+
+
+
+
+/*-------- Work 02 --------*/
+
+
+
+
+/*-------- Work 01 and 02 --------*/
+
+
+
+
+/*-------- Footer --------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
